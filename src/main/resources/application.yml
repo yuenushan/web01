@@ -1,0 +1,9 @@
+logging:
+  level:
+    com.example.cj: ${LOG_LEVEL:INFO} # 可通过环境变量改为日志级别
+
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
